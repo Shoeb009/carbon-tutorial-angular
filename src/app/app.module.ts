@@ -16,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
 	declarations: [
 		AppComponent,
-		HeaderComponent
+		HeaderComponent,
+
 	],
 	imports: [
 		BrowserModule,
@@ -28,7 +29,9 @@ import { HttpClientModule } from '@angular/common/http';
 		UserAvatar20Module,
 		AppSwitcher20Module,
 		GraphQLModule,
-		HttpClientModule
+		HttpClientModule,
+
+		
 	],
 	bootstrap: [AppComponent]
 })
