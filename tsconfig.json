@@ -9,9 +9,9 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es2015",
-    "lib": [
-      "es2016",
-      "dom"
+    "lib": ["es2016",
+      "dom",
+      "esnext.asyncIterable"
     ],
     "module": "esnext",
     "baseUrl": "./"
